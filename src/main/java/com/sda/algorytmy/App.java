@@ -15,11 +15,11 @@ public class App
         System.out.println("Podaj przyrost ciagu: ");
         int d = scanner.nextInt();
         System.out.print(a + ", ");
-        int next;
+
 
         for(int i = 2; i <= n; i++){
-            next = a + (i - 1) * d;
-            System.out.print(next + ", ");
+            //int next = a + (i - 1) * d;
+            System.out.print(a + (i - 1) * d + ", ");
         }
     }
 }
